@@ -1,0 +1,87 @@
+
+body{
+      color: black;
+      width: 100%;
+      margin: 0 auto;
+      text-align: center;
+     
+    
+}
+html{
+  background-color:lightblue
+}
+
+
+li {
+  display: inline;
+  padding: 14px 66px;
+  float: left;
+  text-align: center;
+}
+
+a {
+  display: block;
+  padding: 8px;
+  background-color: #dddddd;
+  text-align: center;
+}
+
+li a:hover {
+  background-color: rgb(113, 207, 238);
+}
+ul {
+  position: sticky;
+  list-style-type: none;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+  background-color: rgb(2, 160, 212);
+   text-align: center;
+}
+footer{
+  position: sticky;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:rgb(2, 160, 212);
+  color: black;
+  text-align: center;
+}
+fieldset{
+  width: 30%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.gallery {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+}
+.gallery> article {
+  border-radius: 25px;
+  border: 10px solid #2290c4;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow: 6px 6px 10px 0px  rgba(0,0,0,0.3);
+  max-width: 50%;
+}
+img{
+  max-width: 1000px;
+  max-height: 750px;
+}
+.comment{
+  text-align: center;
+  border-radius: 20px;
+  background: #6886d1;
+  padding: 20px;
+  width: 175px;
+  height: 100px;
+  align-content: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
